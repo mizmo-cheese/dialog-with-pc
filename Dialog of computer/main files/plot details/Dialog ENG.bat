@@ -27,10 +27,10 @@ echo please press Enter
 pause
 echo hey, do you want to talk with me?
 echo.
-echo 1.) Yes
+echo 1.) Yes i want
 echo 2.) No, not today
 echo.
-set /p var=Set command
+set /p var=Anwser
 if %var%==1 goto Sure
 if %var%==2 goto No
 :Sure
@@ -43,13 +43,13 @@ echo 1.) Rainy
 echo 2.) Sunny
 echo 3.) Tornado
 echo.
-set /p var=Set command:
+set /p var=Anwser:
 if %var%==1 goto Rainy
 if %var%==2 goto Sunny
 if %var%==3 goto Rainy
 :Rainy
 cls
-echo cool
+echo ok...
 goto what kind of tea do you like?
 :Sunny
 cls
@@ -61,7 +61,7 @@ echo.
 echo 1)Green
 echo 2)Black
 echo.
-set /p var=Set command:
+set /p var=Anwser:
 if %var%==1 goto Green
 if %var%==1 goto Black
 :Black
@@ -79,7 +79,7 @@ echo.
 echo 1)yeah :3
 echo 2)not
 echo.
-set /p var=set command:
+set /p var=Anwser:
 if %var%==1 goto ye
 if %var%==2 goto not
 :not
@@ -91,13 +91,13 @@ exit
 cls
 echo And to me :3
 pause
-echo what do you like, rolton or doshirak?
+echo what do you like, Fast Noodles or Standart Noodles?
 echo.
-echo 1)rolton
-echo 2)doshirak
-echo 3)both rolton and doshirak
+echo 1)Fast Noodles
+echo 2)Standart Noodles
+echo 3)both
 echo.
-set /p var=set command:
+set /p var=Answer:
 if %var%==1 goto rolton
 if %var%==2 goto doshirak
 if %var%==3 goto both rolton and doshirak
@@ -122,7 +122,7 @@ echo 1)tea
 echo 2)coffee
 echo 3)and that and that
 echo.
-set /p var=set command
+set /p var=Anwser
 if %var%==1 goto tea
 if %var%==2 goto coffee
 if %var%==3 goto and that and that
@@ -146,7 +146,7 @@ echo.
 echo 1)brrrr yes
 echo 2)nope
 echo.
-set /p var=set command
+set /p var=Anwser
 if %var%==1 goto brrrr yes
 if %var%==2 goto nope
 :nope
