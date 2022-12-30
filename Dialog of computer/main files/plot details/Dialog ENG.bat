@@ -257,7 +257,7 @@ pause
 goto In which application was I created?
 :ecler
 cls
-echo He's a good programmer, but he didn't make this game.
+echo He's a good programmer, but he didn't make this game. But you play this fork by ecler :)
 pause
 goto In which application was I created?
 :Treeks
@@ -309,7 +309,7 @@ echo I wonder with what attempt you managed to guess
 pause
 echo FATAL ERROR 1010010100110101
 pause
-echo VIRUS DETECTED
+echo VIRUS DETECTED - STARTING CURE PC
 pause
 echo ATTEMPT TO CURE THE PC
 timeout 5
