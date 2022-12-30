@@ -1,6 +1,6 @@
 @echo off
 :main menu
-title Dialog of computer TEST VERSION
+title Dialog Of Computer TEST VERSION
 msg * Hello :)
 color 9
 :menu
@@ -16,8 +16,8 @@ if %var%==3 goto Exit the Game
 exit
 :Contact me
 cls
-echo youtube https://www.youtube.com/channel/UCGOL3I7bmyqAqwBG1zRqP2g
-echo Vk https://vk.com/id682989655
+echo YouTube https://www.youtube.com/channel/UCGOL3I7bmyqAqwBG1zRqP2g
+echo VK https://vk.com/id682989655
 pause
 goto menu
 cls
@@ -27,7 +27,7 @@ echo please press Enter
 pause
 echo hey, do you want to talk with me?
 echo.
-echo 1.) Sure!
+echo 1.) Yes
 echo 2.) No, not today
 echo.
 set /p var=Set command
@@ -41,10 +41,12 @@ echo Ok,let' talk... What' going on outside oyour windows
 echo.
 echo 1.) Rainy
 echo 2.) Sunny
+echo 3.) Tornado
 echo.
 set /p var=Set command:
 if %var%==1 goto Rainy
 if %var%==2 goto Sunny
+if %var%==3 goto Rainy
 :Rainy
 cls
 echo cool
